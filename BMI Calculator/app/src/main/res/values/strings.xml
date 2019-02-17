@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="tvAgeLabel">Age</string>
+    <string name="tvWeightLabel">Weight</string>
+    <string name="tvHeightLabel">Height</string>
+    <string name="btnCalculateLabel">Calculate</string>
+    <string name="tvResultLabel">Result</string>
+    <string name="BMIRangeLabel">Normal BMI Range: 18.5 - 25</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inches</string>
+    <string name="years">Years</string>
+    <string name="pounds">Pounds</string>
+
+</resources>

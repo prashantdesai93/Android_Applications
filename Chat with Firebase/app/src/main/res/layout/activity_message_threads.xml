@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.practice.homework05.MessageThreadsActivity">
+
+    <ImageView
+        android:id="@+id/ivLogout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/ic_logout" />
+
+    <TextView
+        android:id="@+id/tvNameHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="12dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCurrentThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNameHead"
+        android:layout_below="@+id/ivLogout"
+        android:layout_marginTop="19dp"
+        android:text="@string/tvCurrentThreadLabel"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/lvThreads"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvCurrentThread"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/etNewTread"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/newThreadHint"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp" />
+
+    <ImageView
+        android:id="@+id/ivAddThread"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_add" />
+
+</RelativeLayout>

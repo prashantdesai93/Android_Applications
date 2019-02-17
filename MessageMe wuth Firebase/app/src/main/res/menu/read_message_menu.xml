@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mad.practice.inclass11.MainActivity">
+    <!--<item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/trash"
+        android:icon="@drawable/ic_action_discard"
+        android:title="Delete Mail"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+    <item
+        android:id="@+id/reply"
+        android:icon="@drawable/ic_action_reply"
+        android:title="Reply"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
+</menu>

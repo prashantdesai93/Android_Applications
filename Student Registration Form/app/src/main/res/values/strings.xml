@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="nameHint">Name</string>
+    <string name="mailHint">Email</string>
+    <string name="tvDeptLabel">Department</string>
+    <string name="rbSISLabel">SIS</string>
+    <string name="rbCSLabel">CS</string>
+    <string name="rbBioLabel">BIO</string>
+    <string name="rbOthersLabel">OTHERS</string>
+    <string name="tvMoodLabel">Your Current Mood:</string>
+    <string name="btnSubmitLabel">SUBMIT</string>
+    <string name="tvStudInfo">Student Information</string>
+    <string name="tvDisplayNameLabel">Name:</string>
+    <string name="tvDisplayEmailLabel">Email:</string>
+    <string name="tvDisplayDepartmentLabel">Department:</string>
+    <string name="tvDisplayMood">Mood:</string>
+    <string name="btnSaveLabel">SAVE</string>
+    <string name="tvEditInfoLabel">Edit Information</string>
+    <string name="contentDesc">Edit Information</string>
+</resources>

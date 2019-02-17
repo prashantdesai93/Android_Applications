@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlTrivia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.practice.hw03.TriviaActivity">
+
+    <TextView
+        android:id="@+id/tvQuestNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tvQuestNumberLabel" />
+
+    <TextView
+        android:id="@+id/tvQuestNumValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvQuestNumber"
+        android:layout_alignTop="@+id/tvQuestNumber"
+        android:layout_toEndOf="@+id/tvQuestNumber"
+        android:text="@string/tvQuestNumValue" />
+
+    <TextView
+        android:id="@+id/tvTimeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvQuestNumValue"
+        android:layout_alignBottom="@+id/tvQuestNumValue"
+        android:layout_toStartOf="@+id/btnNext"
+        android:text="@string/tvTimeLeftLabel" />
+
+    <TextView
+        android:id="@+id/tvSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTimeLeft"
+        android:layout_alignBottom="@+id/tvTimeLeft"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:text="@string/tvSecondsLabel" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvQuestNumber"
+        android:layout_marginBottom="12dp"
+        android:text="@string/quit" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnQuit"
+        android:layout_alignBottom="@+id/btnQuit"
+        android:layout_alignEnd="@+id/tvSeconds"
+        android:text="@string/next" />
+
+    <ImageView
+        android:id="@+id/qImage"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/tvTimeLeft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/qImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+</RelativeLayout>

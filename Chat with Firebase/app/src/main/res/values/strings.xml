@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chat Room</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="Signup">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="ema">Email</string>
+    <string name="choospass">Choose Password</string>
+    <string name="reppass">Repeat Password</string>
+    <string name="tvCurrentThreadLabel">Current Threads</string>
+    <string name="newThreadHint">Add New Thread</string>
+    <string name="messageHint">Type message to send</string>
+</resources>

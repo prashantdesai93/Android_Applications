@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HW03</string>
+    <string name="tvWelcomeLabel">Welcome to Trivia App</string>
+    <string name="btnExitLabel">Exit</string>
+    <string name="btnStartLabel">Start Trivia</string>
+    <string name="tvQuestNumberLabel">Q</string>
+    <string name="tvQuestNumValue" />
+    <string name="tvTimeLeftLabel">Time Left:</string>
+    <string name="tvSecondsLabel">X Seconds</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="tvTriviaStatLabel">Trivia Stats</string>
+    <string name="correctAnsLabel">Correct Answers</string>
+    <string name="tvPercentLabel">0%</string>
+    <string name="tvTryLabel">Try again and see if you can get all the correct answers!</string>
+    <string name="btnQuitLabel">Quit</string>
+    <string name="btnTryLabel">Try Again</string>
+    <string name="tvReadyLabel">Trivia Ready</string>
+    <string name="tvLoadingLabel">Loading Trivia</string>
+</resources>

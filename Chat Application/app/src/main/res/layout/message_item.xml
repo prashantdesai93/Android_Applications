@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvMessageLabel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvNameMsg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvMessageLabel"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvNameMsg"
+        android:layout_marginStart="44dp"
+        android:layout_toEndOf="@+id/tvNameMsg"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivTrash"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvMessageLabel"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/ic_trash" />
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

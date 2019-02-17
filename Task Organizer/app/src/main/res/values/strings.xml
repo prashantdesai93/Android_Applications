@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HomeWork02</string>
+    <string name="addTask">Add Task</string>
+    <string name="taskTitle">Task Title</string>
+    <string name="taskDate">Task Date</string>
+    <string name="taskTime">Task Time</string>
+    <string name="taskPriority">Task Priority</string>
+    <string name="etTitleHint">Title</string>
+    <string name="etDateHint">Date</string>
+    <string name="etTimeHint">Time</string>
+    <string name="tvPriorityLabel">Priority:</string>
+    <string name="rbHighValue">High</string>
+    <string name="rbMediumValue">Medium</string>
+    <string name="rbLowValue">Low</string>
+    <string name="btnSaveLabel">Save</string>
+    <string name="tvTaskLabelTxt">Task</string>
+    <string name="tvTaskLabel">Task</string>
+    <string name="tvOfLabel">Of</string>
+    <string name="zero">0</string>
+</resources>

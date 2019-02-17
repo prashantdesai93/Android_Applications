@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="selectPasCountLabel">Select Password count:</string>
+    <string name="passCountLabel">1</string>
+    <string name="selectPassLengthLabel">Select Password Length:</string>
+    <string name="tvPassLengthLabel">8</string>
+    <string name="tvPasswordLabel">Password:</string>
+    <string name="btnThreadLabel">Generate Passwords (Thread)</string>
+    <string name="btnAsyncLabel">Generate Passwords (Async Tasks)</string>
+    <string name="Welcome">Welcome To Password Generator</string>
+</resources>

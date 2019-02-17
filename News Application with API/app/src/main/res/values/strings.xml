@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HomeWork04</string>
+    <string name="hintSearch">Search Keyword</string>
+    <string name="btnGoLabel">Go</string>
+</resources>
